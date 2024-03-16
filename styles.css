@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.title {
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+}
+
+.names > input {
+    background-color: #F6F5F5;
+    margin: 10px 20px;
+}
