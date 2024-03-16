@@ -95,8 +95,9 @@ input[type="radio"] {
 .fem-grp, .mal-grp, .cust-grp {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 25px;
     border: 1px solid black;
     border-radius: 2px;
 }
