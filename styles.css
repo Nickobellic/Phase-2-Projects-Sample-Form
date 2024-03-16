@@ -1,31 +1,118 @@
 body {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.signup {
+.dob {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.end {
+    font-family: 'Galdeano', sans-serif;
+    margin: 10px 20px;
+}
+
+.gender {
+    margin-left: 20px;
+}
+
+.gen-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 800px;
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 5px 5px 5px black;
 }
 
+.signup-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sub-btn {
+    background-color: darkgreen;
+    color: white;
+    font-size: 25px;
+    font-family: 'Galdeano', sans-serif;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#sub-btn:hover {
+    background-color: green;
+}
+
+.subtitle {
+    font-family: 'Galdeano', sans-serif;
+}
+
 .title {
     font-family: 'Andada Pro', serif;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .names {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
-.names > input {
+
+input[type="text"], input[type="password"] {
     background-color: #F6F5F5;
     margin: 10px 20px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+input[type="radio"] {
+    margin-bottom: 3px;
+    margin-right: 10px; 
+}
+
+.fem-grp, .mal-grp, .cust-grp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+input[name="fn"], input[name="ln"] {
+    width: 320px;
+}
+
+h3 {
+    font-family: 'Andada Pro', serif;
+    font-size: 20px;
+}
+
+label {
+    font-family: 'Galdeano', sans-serif;
+    margin: 3px;
+    margin-right: 20px;
+    font-weight: bold;
 }

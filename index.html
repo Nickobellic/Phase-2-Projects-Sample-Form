@@ -7,21 +7,49 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Galdeano&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="signup">
+    <div class="signup-container">
         <h1 class="title">SIGN UP</h1>
-        <form>
+        <h3 class="subtitle">It's quick and easy.</h3>
+        <form class="signupform">
             <div class="names">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Surname">
+                <input name="fn" type="text" placeholder="First Name">
+                <input name="ln" type="text" placeholder="Surname">
             </div>
             <input type="text" placeholder="Mobile number or Email Address">
             <input type="password" placeholder="New Password">
             <label for="dob"></label>
             <div class="dob">
-                <input type="day" name="" id="">
+                <h3>Date of Birth</h3>
+                <input type="date" name="" id="">
+            </div>
+            <div class="gender">
+                <h3>Gender</h3>
+                <div class="gen-group">
+                    <div class="fem-grp">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gen" value="female">
+                    </div>
+                    <div class="mal-grp">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gen" value="male">
+                    </div>
+                    <div class="cust-grp">
+                        <label for="custom">Custom</label>
+                        <input type="radio" name=gen value="custom">
+                    </div>
+                </div>
+            </div>
+            <p class="end">
+                People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more.</a>
+            </p>
+            <p class="end">
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <div class="signup-button">
+                <input type="submit" value="Sign Up" id="sub-btn">
             </div>
         </form>
     </div>
